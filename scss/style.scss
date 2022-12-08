@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  
+  
+}
+
+body{
+    background-color: #d9b8b8;
+    padding: 50px;
+}
+
+#container {
+    display: flex;
+    // background-color: #c69c34;
+    border: 4px solid #592828;
+    padding: 50px;
+    margin: 80px;
+    width: 1200px;
+    // background-color: #fff;
+
+    p{
+        font-size: 32px;
+        font-weight: 400;
+        font-family: 'Mountains of Christmas', cursive;
+        text-align: left;
+       }
+    
+
+    .left{
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+        justify-content: flex-start;
+        padding-top: 20px;
+        color:  #592828;
+        font-family: 'Mountains of Christmas', cursive;
+
+        #card {
+            // background-color: #d5a84c;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            padding-top: 5%;
+            row-gap: 25px;
+        
+            div {
+                display: flex;
+                justify-content: space-between;
+                width: 155px;
+                height: 80px;
+                // border: 2px solid #592828;
+                row-gap: 25px;
+ 
+            }
+        }
+
+    }
+
+    .right {
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+        justify-content: center;
+        color:  #592828;
+
+        .right-clm-card {
+           padding: 20px;
+
+           h1 {
+            padding: 20px 0 20px 0;
+            font-family: 'Mountains of Christmas', cursive;
+            font-size: 60px;
+           }
+
+          
+
+           img {
+            width: 100%;
+            background-size: cover;
+           }
+        }
+
+
+    }
+
+    .left-clm-greeting{
+        display: flex;
+        flex-direction: column;
+
+        h1 {
+            font-size: 32px;
+            font-family: 'Mountains of Christmas', cursive;
+            font-size: 60px;
+            font-weight: 600;
+            padding: 20px 0 20px  0;
+
+        }
+
+
+
+       
+
+    }
+
+
+}
+
+
+
+
+
